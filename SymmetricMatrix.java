@@ -49,4 +49,30 @@ else
 System.out.println("The entered matrix is not a Symmetric Matrix"); 
 } 
 } 
-}  
+} 
+
+
+output:
+Enter the number of rows for the Matrices : 3
+Enter the number of columns for the Matrices : 3
+Enter the elements for the Matrix : 
+1
+2
+3
+2
+4
+5
+3
+5
+8
+
+
+The entered matrix is : 
+1 2 3 
+
+2 4 5 
+
+3 5 8 
+
+The entered matrix is Symmetric Matrix
+
