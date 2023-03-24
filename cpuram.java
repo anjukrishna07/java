@@ -28,3 +28,9 @@ public class cpuram
 	} 
 } 
 
+output:
+Processor core = 51.0
+Processor manufacture = Intel
+Ram memory = 512.0
+Ram manufacturer = Asus
+
