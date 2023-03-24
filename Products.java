@@ -29,3 +29,5 @@ System.out.println("Price of product3 is lowest");
 }
 }
 
+output:
+Price of product2 is lowest
