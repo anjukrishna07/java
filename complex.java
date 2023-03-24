@@ -16,3 +16,14 @@ System.out.println("The number is:"+c+""+""+d+"i");
 System.out.println("The Sum is :"+ (a+c) + " + "+ (b+d) +"i");
 }
 }
+
+output:
+Enter the fist complex number
+4
+7
+The number is: 4+7i
+Enter the second complex number
+3
+4
+The number is:34i
+The Sum is :7 + 11i
