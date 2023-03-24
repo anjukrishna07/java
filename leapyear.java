@@ -25,3 +25,15 @@ public class leapyear {
         }
     }
 }
+
+output:
+Enter the Start Year:2000
+Enter the End Year:2024
+Leap years:
+2000
+2004
+2008
+2012
+2016
+2020
+2024
