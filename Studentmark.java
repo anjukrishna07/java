@@ -1,3 +1,5 @@
+//main prgm record
+
 import java.util.Scanner;
 public class Studentmark
 {
@@ -21,4 +23,15 @@ public class Studentmark
 	}
 }
 
-
+output:
+Enter no. of subjects:
+6
+Enter marks out of 100:
+80
+70
+75
+87
+88
+72
+Total mark obtained:472
+Percentage:78.666664%
