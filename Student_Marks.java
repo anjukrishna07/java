@@ -26,3 +26,16 @@ public class Student_Marks
     }   
 }
 
+output:
+Enter the total subjects 
+6
+Enter the marks secured in each subject 
+70
+75
+80
+78
+86
+82
+The total marks obtained is 471
+Total Percentage : 78.5%
+
