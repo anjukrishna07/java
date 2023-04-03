@@ -71,3 +71,13 @@ import java.util.Scanner;
         }
 
     }
+
+output:
+Enter number of names you want to enter:5
+Enter all the names:
+megha
+arya
+lakshmi
+malu
+anju
+Names in Sorted Order:anju,arya,lakshmi,malu,megha
