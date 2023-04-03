@@ -20,3 +20,8 @@ data.getstring();
 data.sort();
 }
 }
+
+output:
+Enter a string: 
+welcome
+ceelmow
