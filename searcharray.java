@@ -34,3 +34,30 @@ class searcharray
     		}
 	}
 }
+
+output:
+Enter the number of elements:
+5
+Enter the elements
+3
+4
+6
+7
+2
+Enter the element to be seached
+4
+Element 4 found at 1 position
+
+Another output:
+
+
+Enter the number of elements:
+5
+Enter the elements
+2
+3
+6
+5
+7
+Enter the element to be seached
+8
