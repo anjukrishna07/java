@@ -21,3 +21,18 @@ System.out.println("reverse" +"   " +sb.reverse());
     System.out.println("The Concatenated Strings are : "+str1.concat(b));
 }
 }
+
+output:
+Enter The String
+welcome
+Length of String = 7
+Character at First position  = w
+LOWERCASE : welcome
+UPPERCASE : WELCOME
+append : Helloeveryone
+replace welcome
+indexof 1
+reverse   enoyreveolleH
+Enter another String to be Concatenated to the previous one: 
+java
+The Concatenated Strings are : welcomejava
