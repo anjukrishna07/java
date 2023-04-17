@@ -49,3 +49,9 @@ class OverloadDemo
             }
 
     }
+
+output:
+the area of the rectangle is 2.0 sq units
+the area of the rectangle is 200.0 sq units
+the area of the rectangle is 2340.0 sq units
+
