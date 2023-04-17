@@ -41,3 +41,20 @@ class String_built
 	}	
 
 }
+
+output:
+Enter a String
+welcome
+Length of the string : 7
+Uppercase of the string : WELCOME
+Enter the Character you want to replace with '0' :
+l
+Replaced String is : we0come
+****String Buffer****
+Capcity of the String is : 23
+Enter the  String want to append to welcome
+java
+The new String : welcomejava
+Capcity of the String is : 23
+The reversed String :avajemoclew
+
