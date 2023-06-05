@@ -1,57 +1,38 @@
-class OverloadDemo
+import java.util.Scanner;
 
-    {
-
-        void area(float x)
-
-        {
-
-            System.out.println("the area of the square is "+Math.pow(x, 2)+" sq units");
-
-        }
-
-        void area(float x, float y)
-
-        {
-
-            System.out.println("the area of the rectangle is "+x*y+" sq units");
-
-        }
-
-        void area(double x)
-
-        {
-
-            double z = 3.14 * x * x;
-
-            System.out.println("the area of the circle is "+z+" sq units");
-
-        }
-
+class OverloadDemo {
+    void area(float x) {
+        System.out.println("The area of the square is " + Math.pow(x, 2) + " sq units\n");
     }
 
-    class Overload
-
-    {
-
-         public static void main(String args[]) 
-
-    	{
-
-    	   OverloadDemo ob = new OverloadDemo();
-
-    	   ob.area(1,2);
-
-    	   ob.area(10,20);
-
-    	   ob.area(30,78);
-
-            }
-
+    void area(float x, float y) {
+        System.out.println("The area of the rectangle is " + x * y + " sq units\n");
     }
 
-output:
-the area of the rectangle is 2.0 sq units
-the area of the rectangle is 200.0 sq units
-the area of the rectangle is 2340.0 sq units
+    void area(double x) {
+        double z = 3.14 * x * x;
+        System.out.println("The area of the circle is " + z + " sq units\n");
+    }
+}
 
+class Overload {
+    public static void main(String args[]) {
+        OverloadDemo ob = new OverloadDemo();
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the side length of the square: ");
+        float squareSide = scanner.nextFloat();
+        ob.area(squareSide);
+
+        System.out.print("Enter the length and width of the rectangle: ");
+        float rectangleLength = scanner.nextFloat();
+        float rectangleWidth = scanner.nextFloat();
+        ob.area(rectangleLength, rectangleWidth);
+
+        System.out.print("Enter the radius of the circle: ");
+        double circleRadius = scanner.nextDouble();
+        ob.area(circleRadius);
+
+        scanner.close();
+    }
+}
